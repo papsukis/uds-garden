@@ -93,8 +93,8 @@
     height: 40px;
     padding: 9px 0;
     top: calc(50% - 20px);
-    background: #F6D155;
-    border: 2px solid #006E51;
+    background: #86bf82;
+    border: 2px solid #dcfbd3;
     border-radius: 40px;
     text-align: center;
     font-size: 18px;
@@ -109,10 +109,10 @@
   .timeline-container.right .icon {
     left: 56px;
   }
-  
+  /* #F6D155 */
   .timeline-container .content {
     padding: 30px 90px 30px 30px;
-    background: #F6D155;
+    background: #86bf82;
     position: relative;
     border-radius: 0 500px 500px 0;
   }
@@ -126,7 +126,7 @@
     margin: 0 0 10px 0;
     font-size: 18px;
     font-weight: normal;
-    color: #006E51;
+    color: #dcfbd3;
   }
   
   .timeline-container .content p {

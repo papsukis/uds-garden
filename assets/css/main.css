@@ -1478,7 +1478,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #50a1cf;
+			background-color: #555;
 		}
 
 		input[type="button"]:active,
@@ -1851,7 +1851,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("C:\\Users\\alibe\\Documents\\Workplace\\uds-garden\\html5up-zerofour\\images\\header.jpg");
+		background: url("../../images/header.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
