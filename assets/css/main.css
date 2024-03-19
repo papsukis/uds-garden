@@ -104,11 +104,12 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
-		color: #7b818c;
+		font-family:"Rubik", sans-serif;
+		color: #000;
 		font-weight: 400;
 		font-size: 11pt;
 		line-height: 1.85em;
+		text-shadow: #fff;
 	}
 
 	a {
@@ -124,8 +125,9 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: #404248;
+		color: #dcfbd3;
 		margin: 0 0 1em 0;
+		text-shadow:none
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -135,6 +137,7 @@ input, select, textarea {
 	}
 
 	h2 {
+		font-family:"Montserrat", sans-serif;
 		font-size: 2em;
 		margin: 0 0 1.5em 0;
 		line-height: 1em;
@@ -157,7 +160,7 @@ input, select, textarea {
 	}
 
 	b, strong {
-		color: #404248;
+		color: #000;
 		font-weight: 700;
 	}
 
@@ -202,7 +205,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.065em;
 		font-size: 0.9em;
-		color: #696969;
+		color: #000;
 		margin: 0 0 0.25em 0;
 	}
 
@@ -1240,16 +1243,20 @@ input, select, textarea {
 
 		header p {
 			display: block;
-			text-transform: uppercase;
+			text-transform: none;
 			font-weight: 700;
 			letter-spacing: 0.065em;
 			font-size: 0.9em;
-			color: #696969;
+			color: #000000;
 			margin: 0;
+			text-shadow: white;
+			font-family:"Rubik", sans-serif;
+			font-weight: 100;
+            font-style: normal;
 		}
 
 			header p strong {
-				color: #404248;
+				color: #000;
 				font-weight: 800;
 			}
 
@@ -1373,7 +1380,7 @@ input, select, textarea {
 
 			table.default thead {
 				background: #404248;
-				color: #fff;
+				color: #000;
 			}
 
 /* Image */
@@ -1385,8 +1392,10 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 150px;
+			height: auto;
 			border-radius: 8px;
+
 		}
 
 		.image:before {
@@ -1397,7 +1406,7 @@ input, select, textarea {
 			top: 0;
 			background: url("images/bg01.png");
 			width: 100%;
-			height: 100%;
+			height: 100%
 			opacity: 0.75;
 		}
 
@@ -1630,7 +1639,7 @@ input, select, textarea {
 			}
 
 			.box.feature1 header.first p {
-				font-size: 1.2em;
+				font-size: 1.5em;
 			}
 
 			.box.feature1 header.second {
@@ -1755,7 +1764,7 @@ input, select, textarea {
 		background-color: rgba(59, 62, 69, 0.9);
 		border-radius: 8px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+		text-shadow: 1px 1px 0 #fff;
 		padding: 1.5em;
 		line-height: 2.5em;
 		min-width: 15em;
@@ -1802,6 +1811,7 @@ input, select, textarea {
 			font-weight: 700;
 			line-height: 1.3em;
 			margin: 0 0 1.5em 0;
+			font-family: "EB Garamond", serif;
 		}
 
 			#banner h2 strong {
@@ -1858,7 +1868,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: #336a50;
 	}
 
 	#footer-wrapper {
@@ -1885,7 +1895,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
-			background-color: #fff;
+			background-color: #86bf82;
 			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
 			background-repeat: no-repeat, no-repeat, repeat;
 			background-size: 100% 15em, 100% 15em, auto auto;
@@ -1939,14 +1949,14 @@ input, select, textarea {
 
 	#footer {
 		margin-bottom: 0;
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+		text-shadow: #fff;
 		position: relative;
 		z-index: 2;
 	}
 
 		#footer h2 {
 			font-size: 1.35em;
-			color: #fff;
+			color: #dcfbd3;
 		}
 
 		#footer strong {
@@ -1954,7 +1964,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #acb2bf;
+			color: #74ac8c;
 		}
 
 		#footer .button.alt {
@@ -1975,7 +1985,7 @@ input, select, textarea {
 		}
 
 		#footer dl.contact dt {
-			color: #ddd;
+			color: #000000;
 		}
 
 	#copyright {
@@ -2103,7 +2113,7 @@ input, select, textarea {
 				height: 44px;
 				left: 0;
 				position: fixed;
-				text-shadow: -1px -1px 0 black;
+				text-shadow: #fff;
 				top: 0;
 				width: 100%;
 				z-index: 10001;
@@ -2313,6 +2323,7 @@ input, select, textarea {
 				line-height: 1.75em;
 				font-size: 10pt;
 				letter-spacing: 0;
+				font-family: "Rubik", sans-serif;
 			}
 
 			h2, h3, h4, h5, h6 {
@@ -2411,7 +2422,7 @@ input, select, textarea {
 			}
 
 				#banner h2 {
-					font-size: 18pt !important;
+					font-size: 65px !important;
 				}
 
 		/* Sidebar */
